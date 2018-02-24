@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ally
+  - Ally bullets
+  - Enemy
+  - Enemy bullets
   layers:
   - Default
   - TransparentFX
@@ -13,11 +17,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ignore physics
+  - Ally
+  - Ally bullets
+  - Enemy
+  - Enemy bullets
   - 
   - 
   - 

@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 074e3a231be24c44db16315e9cf4d37c
+timeCreated: 1519484796
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: aleiron_1_l
+    100002: aleiron_1_r
+    100004: aleiron_2_l
+    100006: aleiron_2_r
+    100008: //RootNode
+    100010: flaps_1_l
+    100012: flaps_1_r
+    100014: flaps_2_l
+    100016: flaps_2_r
+    100018: frontwindow
+    100020: fuselage
+    100022: hatchcage
+    100024: hatchglass
+    100026: pitch_Pitch
+    100028: propellor
+    100030: propellor_spinn
+    100032: propspinn_disc
+    100034: rudder
+    100036: wheelin
+    100038: wheelout
+    100040: wing_l
+    100042: wing_r
+    100044: wingglass_r
+    100046: wingglassleft
+    400000: aleiron_1_l
+    400002: aleiron_1_r
+    400004: aleiron_2_l
+    400006: aleiron_2_r
+    400008: //RootNode
+    400010: flaps_1_l
+    400012: flaps_1_r
+    400014: flaps_2_l
+    400016: flaps_2_r
+    400018: frontwindow
+    400020: fuselage
+    400022: hatchcage
+    400024: hatchglass
+    400026: pitch_Pitch
+    400028: propellor
+    400030: propellor_spinn
+    400032: propspinn_disc
+    400034: rudder
+    400036: wheelin
+    400038: wheelout
+    400040: wing_l
+    400042: wing_r
+    400044: wingglass_r
+    400046: wingglassleft
+    2100000: aleiron_1_lMat
+    2100002: aleiron_1_rMat
+    2100004: aleiron_2_lMat
+    2100006: aleiron_2_rMat
+    2100008: flaps_1_lMat
+    2100010: flaps_1_rMat
+    2100012: flaps_2_lMat
+    2100014: flaps_2_rMat
+    2100016: frontwindowMat
+    2100018: fuselageMat
+    2100020: hatchcageMat
+    2100022: hatchglassMat
+    2100024: pitch_PitchMat
+    2100026: propellorMat
+    2100028: propellor_spinnMat
+    2100030: propspinn_discMat
+    2100032: rudderMat
+    2100034: wheelinMat
+    2100036: wheeloutMat
+    2100038: wing_lMat
+    2100040: wing_rMat
+    2100042: wingglass_rMat
+    2100044: wingglassleftMat
+    2300000: aleiron_1_l
+    2300002: aleiron_1_r
+    2300004: aleiron_2_l
+    2300006: aleiron_2_r
+    2300008: flaps_1_l
+    2300010: flaps_1_r
+    2300012: flaps_2_l
+    2300014: flaps_2_r
+    2300016: frontwindow
+    2300018: fuselage
+    2300020: hatchcage
+    2300022: hatchglass
+    2300024: pitch_Pitch
+    2300026: propellor
+    2300028: propellor_spinn
+    2300030: propspinn_disc
+    2300032: rudder
+    2300034: wheelin
+    2300036: wheelout
+    2300038: wing_l
+    2300040: wing_r
+    2300042: wingglass_r
+    2300044: wingglassleft
+    3300000: aleiron_1_l
+    3300002: aleiron_1_r
+    3300004: aleiron_2_l
+    3300006: aleiron_2_r
+    3300008: flaps_1_l
+    3300010: flaps_1_r
+    3300012: flaps_2_l
+    3300014: flaps_2_r
+    3300016: frontwindow
+    3300018: fuselage
+    3300020: hatchcage
+    3300022: hatchglass
+    3300024: pitch_Pitch
+    3300026: propellor
+    3300028: propellor_spinn
+    3300030: propspinn_disc
+    3300032: rudder
+    3300034: wheelin
+    3300036: wheelout
+    3300038: wing_l
+    3300040: wing_r
+    3300042: wingglass_r
+    3300044: wingglassleft
+    4300000: aleiron_1_l
+    4300002: aleiron_1_r
+    4300004: aleiron_2_l
+    4300006: aleiron_2_r
+    4300008: flaps_1_l
+    4300010: flaps_1_r
+    4300012: flaps_2_l
+    4300014: flaps_2_r
+    4300016: frontwindow
+    4300018: fuselage
+    4300020: hatchcage
+    4300022: hatchglass
+    4300024: pitch_Pitch
+    4300026: propellor
+    4300028: propellor_spinn
+    4300030: propspinn_disc
+    4300032: rudder
+    4300034: wheelin
+    4300036: wheelout
+    4300038: wing_l
+    4300040: wing_r
+    4300042: wingglass_r
+    4300044: wingglassleft
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aleiron_1_lMat
+    second: {fileID: 2100000, guid: 9d0a834997847e04895a020a4fb0d629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aleiron_1_rMat
+    second: {fileID: 2100000, guid: 60b2eecaff38d2c498e57fbf3a0ba85a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aleiron_2_lMat
+    second: {fileID: 2100000, guid: 349ac236ecdb72e4886321c40fc8333e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aleiron_2_rMat
+    second: {fileID: 2100000, guid: 799ad9a838fa3e34e8605b859adf32c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flaps_1_lMat
+    second: {fileID: 2100000, guid: 1649bca43f058f243902b83d4e581f05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flaps_1_rMat
+    second: {fileID: 2100000, guid: fbd7f9148861a6d44878ea43f6bf5203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flaps_2_lMat
+    second: {fileID: 2100000, guid: 8e18d257a6281b94abbe0a5906c92645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flaps_2_rMat
+    second: {fileID: 2100000, guid: 46f632660a439cb40b9f96381ac3644d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frontwindowMat
+    second: {fileID: 2100000, guid: 2289457de4e4fa541a01264f305b8685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselageMat
+    second: {fileID: 2100000, guid: f9940258359c164459d6b621758407e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatchcageMat
+    second: {fileID: 2100000, guid: 3e21bc53d4f50814789e8ea96b4a36da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatchglassMat
+    second: {fileID: 2100000, guid: b2edc82f444290a409624706380b2d0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pitch_PitchMat
+    second: {fileID: 2100000, guid: 7b51e1586ad01cf4eb9d05558375ac42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: propellorMat
+    second: {fileID: 2100000, guid: b4f2601b6fbe8e642807642603959b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: propellor_spinnMat
+    second: {fileID: 2100000, guid: ae4c735d7bf4842438692fa9342ae621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: propspinn_discMat
+    second: {fileID: 2100000, guid: 793e6be4224ec8144be1dd0915a761d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rudderMat
+    second: {fileID: 2100000, guid: e3c006a75e02ea44698308c0ec7888f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheelinMat
+    second: {fileID: 2100000, guid: d12068acca204694f903bef08cccb365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheeloutMat
+    second: {fileID: 2100000, guid: 665d7277e3513af42bc327a3604fe202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wing_lMat
+    second: {fileID: 2100000, guid: c1277b5387fbfed4faff6c54dca81570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wing_rMat
+    second: {fileID: 2100000, guid: dd0d7fad308d6d946a8f87558b8dfde3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wingglass_rMat
+    second: {fileID: 2100000, guid: 7fa98311e6bfe2b449f04c8dce60f723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wingglassleftMat
+    second: {fileID: 2100000, guid: 8c6c9fa137228644da88db704e32c491, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
