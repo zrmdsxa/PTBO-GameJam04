@@ -66,7 +66,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 				}
 			}
 
-            Throttle = 1.0f;
+
+            //edit
+            Throttle = 0.2f;
+
+            m_Rigidbody.velocity = new Vector3(0,0,20);
         }
 
 
