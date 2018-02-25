@@ -73,6 +73,8 @@ public class FireWeapons : MonoBehaviour
                 {
                     Transform bullet = Instantiate(m_bullet1, t.position, Quaternion.identity);
 
+					bullet.GetComponent<Bullet>().SetDamage(m_bullet1Damage);
+
                     Rigidbody rb = bullet.GetComponent<Rigidbody>();
                     rb.velocity = m_rb.velocity + (transform.forward * m_bullet1Speed) + (transform.up * Random.Range(m_minRange1, m_maxRange1)) + (transform.right * Random.Range(m_minRange1,m_maxRange1));
                 

@@ -13,8 +13,4 @@ public class debugcollisions : MonoBehaviour {
 	void Update () {
 		
 	}
-
-	void OnCollisionEnter(Collision other){
-		Debug.Log("other:"+other.gameObject.layer);
-	}
 }

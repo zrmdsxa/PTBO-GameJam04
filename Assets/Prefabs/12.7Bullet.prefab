@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 135088316077118070}
   - component: {fileID: 23963128153391936}
   - component: {fileID: 54982784857493864}
-  - component: {fileID: 114147620335520472}
   - component: {fileID: 114972092984121430}
   - component: {fileID: 82457539347284032}
+  - component: {fileID: 114933199056279416}
   m_Layer: 8
   m_Name: 12.7Bullet
   m_TagString: Untagged
@@ -41,7 +41,7 @@ Transform:
   m_GameObject: {fileID: 1852449409427852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.035586152, y: 0.035586152, z: 0.035586152}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -182,7 +182,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114147620335520472
+--- !u!114 &114933199056279416
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1852449409427852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e484a84214bd62408b77bf932d23686, type: 3}
+  m_Script: {fileID: 11500000, guid: ca36d4757e750ec42bd12694a83ef269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114972092984121430
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4960d1ae8594145a48e0d1b683843f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 2
+  timer: 1
 --- !u!135 &135088316077118070
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -215,5 +215,5 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
