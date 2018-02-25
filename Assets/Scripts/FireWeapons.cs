@@ -20,6 +20,10 @@ public class FireWeapons : MonoBehaviour
 
     float m_currentCooldown1 = 0;
 
+	public Transform[] m_rockets;
+
+	int m_rocketIndex = 0;
+
 	Rigidbody m_rb;
 
     // Use this for initialization
@@ -50,10 +54,23 @@ public class FireWeapons : MonoBehaviour
 					//bullets go in layer first
 					bullet.tag = "Ally bullets";
 					bullet.gameObject.layer = 10;
-					
+
 					m_currentCooldown1 = 0;
 				}
             }
         }
+		if (Input.GetButtonDown("FireRocket"))
+        {
+			if (m_rocketIndex < 8){
+				m_rockets[m_rocketIndex].parent = null;
+				m_rockets[m_rocketIndex].gameObject.AddComponent(typeof(Rigidbody));
+				Rigidbody rb = m_rockets[m_rocketIndex].GetComponent<Rigidbody>();
+				rb.useGravity = false;
+				rb.velocity = m_rb.velocity + transform.forward * 50.0f;
+				m_rocketIndex++;
+			}
+			
+		}
+
     }
 }
