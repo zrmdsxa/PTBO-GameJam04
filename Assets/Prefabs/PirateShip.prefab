@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae9f69f10af5ca84eb8d85792369f433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_startHealth: 200
+  m_startHealth: 300
   m_playerText: {fileID: 0}
   m_playerImage: {fileID: 0}
   m_enemyImage: {fileID: 114141553924361800}

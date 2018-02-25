@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		Debug.Log("Hit:" +other.gameObject.name);
+		//Debug.Log("Hit:" +other.gameObject.name);
 		//if ally bullet
 		if (gameObject.layer == 10){ //ally bullets
 			if (other.tag == "Enemy"){

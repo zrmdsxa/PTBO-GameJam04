@@ -33,6 +33,7 @@ public class Health : MonoBehaviour
             m_playerText.text = ((m_currentHealth / m_startHealth) * 100).ToString("0") + "%";
             m_playerImage.fillAmount = m_currentHealth / m_startHealth;
         }
+
     }
 
     // Update is called once per frame
@@ -84,6 +85,7 @@ public class Health : MonoBehaviour
 
                 if (m_currentHealth <= 0.0f)
                 {
+					Debug.Log(name+" died");
                     m_isDead = true;
                     m_currentHealth = 0.0f;
                     if (name == "F4U")
@@ -102,6 +104,16 @@ public class Health : MonoBehaviour
                     {
                         GetComponent<EnemyPlane>().enabled = false;
                     }
+
+					else if (name == "dumboat" || name == "PirateShip"){
+						BoatCounter.m_instance.BoatDestroyed();
+						GetComponent<EnemyScript>().enabled = false;
+					}
+
+					if (name == "dumboat"){
+						Debug.Log("dum boat ded");
+						GetComponentInChildren<Animator>().SetBool("dead",true);
+					}
 
                     Destroy(Instantiate(m_explosionSound, transform.position, Quaternion.identity), 5);
                     Destroy(Instantiate(m_explosionParticles, transform.position, Quaternion.identity), 5);

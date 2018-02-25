@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour {
 
+	public GameObject m_controls;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -17,5 +19,9 @@ public class MenuManager : MonoBehaviour {
 
 	public void ButtonStart(){
 		SceneManager.LoadScene(1);
+	}
+
+	public void ButtonControls(){
+		m_controls.SetActive(!m_controls.activeInHierarchy);
 	}
 }
