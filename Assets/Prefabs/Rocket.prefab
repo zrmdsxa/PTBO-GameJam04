@@ -36,7 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4761788001068766}
-  - component: {fileID: 114759607994751088}
+  - component: {fileID: 114089599471306644}
   m_Layer: 10
   m_Name: Rocket
   m_TagString: Untagged
@@ -144,18 +144,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1561217272357202}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114759607994751088
+--- !u!114 &114089599471306644
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1478870461756574}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d4960d1ae8594145a48e0d1b683843f, type: 3}
+  m_Script: {fileID: 11500000, guid: ca36d4757e750ec42bd12694a83ef269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 20
+  m_particle: {fileID: 1000013462590818, guid: ecdd96beb7f93494880c052dfccf9dc1, type: 2}
+  m_soundEffect: {fileID: 1305157421642334, guid: ded271637ab8ce246b0c71e36f47d563,
+    type: 2}
 --- !u!136 &136411083571397312
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -163,7 +165,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1561217272357202}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2

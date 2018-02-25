@@ -8,6 +8,8 @@ TagManager:
   - Ally bullets
   - Enemy
   - Enemy bullets
+  - EnemyChild
+  - AllyChild
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Ally bullets
   - Enemy
   - Enemy bullets
-  - 
+  - UI2
   - 
   - 
   - 
