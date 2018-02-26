@@ -94,7 +94,7 @@ public class EnemyPlane : MonoBehaviour
 
         if (transform.position.y < 5.0f && !m_explodeOnWater)
         {
-            transform.position = new Vector3(transform.position.x, 10.0f, transform.position.z);
+            transform.position = new Vector3(0, 100.0f, 3700);
 			transform.LookAt(transform.up);
         }
         else

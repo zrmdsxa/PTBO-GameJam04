@@ -41,8 +41,11 @@ public class Health : MonoBehaviour
     {
         if (m_isDead)
         {
-            transform.Translate(new Vector3(0, -1 * Time.deltaTime, 0));
-            if (transform.position.y == 0)
+            if (name != "F4U"){
+                transform.Translate(new Vector3(0, -1 * Time.deltaTime, 0));
+            }
+            
+            if (transform.position.y <= 0)
             {
                 if (name == "F4U")
                 {
@@ -98,6 +101,8 @@ public class Health : MonoBehaviour
 
                         m_playerText.text = ("0%");
                         m_playerImage.fillAmount = 0;
+
+                        GameObject.Find("dumboat").GetComponentInChildren<Animator>().SetBool("playerdead",true);
                     }
 
                     else if (name == "A6M")
@@ -113,10 +118,25 @@ public class Health : MonoBehaviour
 					if (name == "dumboat"){
 						Debug.Log("dum boat ded");
 						GetComponentInChildren<Animator>().SetBool("dead",true);
+
+                        Destroy(Instantiate(m_explosionSound, transform.position, Quaternion.identity), 5);
+
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position + new Vector3(Random.Range(-40,40),Random.Range(0,160),Random.Range(-35,20)), Quaternion.identity), 5);
 					}
 
-                    Destroy(Instantiate(m_explosionSound, transform.position, Quaternion.identity), 5);
-                    Destroy(Instantiate(m_explosionParticles, transform.position, Quaternion.identity), 5);
+                    else{
+                        Destroy(Instantiate(m_explosionSound, transform.position, Quaternion.identity), 5);
+                        Destroy(Instantiate(m_explosionParticles, transform.position, Quaternion.identity), 5);
+                    }
+
+                    
 
                 }
 
@@ -138,6 +158,8 @@ public class Health : MonoBehaviour
         m_playerImage.fillAmount = 0;
         Destroy(Instantiate(m_explosionSound, transform.position, Quaternion.identity), 5);
         Destroy(Instantiate(m_explosionParticles, transform.position, Quaternion.identity), 5);
+
+        GameObject.Find("dumboat").GetComponentInChildren<Animator>().SetBool("playerdead",true);
     }
 
 
