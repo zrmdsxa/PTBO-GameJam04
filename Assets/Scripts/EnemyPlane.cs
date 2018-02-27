@@ -34,8 +34,6 @@ public class EnemyPlane : MonoBehaviour
 
     Rigidbody m_rb;
 
-    bool m_explodeOnWater = false;
-
     // Use this for initialization
     void Start()
     {
@@ -92,19 +90,13 @@ public class EnemyPlane : MonoBehaviour
 
         }
 
-        if (transform.position.y < 5.0f && !m_explodeOnWater)
+        if (transform.position.y < 5.0f)
         {
-            transform.position = new Vector3(0, 100.0f, 3700);
-			transform.LookAt(transform.up);
+        
+            transform.position = new Vector3(transform.position.x, 5, transform.position.z);
+
         }
-        else
-        {
-            //explode on water
-        }
+
     }
 
-    public void SetExplodeWater()
-    {
-        m_explodeOnWater = true;
-    }
 }
