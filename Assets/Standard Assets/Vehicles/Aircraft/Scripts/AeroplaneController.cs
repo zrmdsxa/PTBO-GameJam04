@@ -68,7 +68,7 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 
 
             //edit
-            Throttle = 0.2f;
+            Throttle = 1.0f;
 
             m_Rigidbody.velocity = new Vector3(0, 0, 20);
         }
@@ -311,6 +311,10 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
             m_propellerBlur1.SetActive(false);
             m_propellerBlur1.SetActive(false);
             m_propellerPropeller.SetActive(true);
+        }
+
+        public void Dead(){
+            Throttle = 0;
         }
     }
 }

@@ -1474,7 +1474,7 @@ MonoBehaviour:
   m_minRange1: -10
   m_maxRange1: 10
   m_attackRange: 1000
-  m_gunSound1: {fileID: 1894994491834638, guid: ee4e8837cb419dd4987105817b1205f7,
+  m_gunSound1: {fileID: 1894994491834638, guid: 7730f6930d9e3de45af269b204a011b4,
     type: 2}
   m_gun1Positions:
   - {fileID: 4060311316701170}
@@ -1501,7 +1501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae9f69f10af5ca84eb8d85792369f433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_startHealth: 5
+  m_startHealth: 10
   m_playerText: {fileID: 0}
   m_playerImage: {fileID: 0}
   m_enemyImage: {fileID: 114244721434408212}

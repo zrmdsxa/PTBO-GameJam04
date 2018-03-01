@@ -30,8 +30,19 @@ public class Health : MonoBehaviour
 
         if (name == "F4U")
         {
+            if (Difficulty.m_instance.GetDifficulty() == 0){
+                m_currentHealth *= 2f;
+                m_startHealth *= 2f;
+            }
             m_playerText.text = ((m_currentHealth / m_startHealth) * 100).ToString("0") + "%";
             m_playerImage.fillAmount = m_currentHealth / m_startHealth;
+        }
+        else{
+            if (Difficulty.m_instance.GetDifficulty() == 0){
+                m_currentHealth *= 0.5f;
+                m_startHealth *= 0.5f;
+            }
+        
         }
 
     }
@@ -95,8 +106,9 @@ public class Health : MonoBehaviour
                     {
                         GetComponent<FireWeapons>().enabled = false;
                         GetComponent<AeroplaneController>().m_MaxEnginePower = 0;
-                        GetComponent<AeroplaneController>().ShowPropeller();
                         GetComponent<AeroplaneController>().enabled = false;
+                        GetComponent<AeroplaneController>().ShowPropeller();
+                        
                         GetComponent<AeroplaneUserControl4Axis>().enabled = false;
 
                         m_playerText.text = ("0%");
@@ -108,11 +120,14 @@ public class Health : MonoBehaviour
                     else if (name == "A6M")
                     {
                         GetComponent<EnemyPlane>().enabled = false;
+                        GetComponent<AeroplaneController>().m_MaxEnginePower = 0;
+                        GetComponent<AeroplaneAiControl>().enabled = false;
                     }
 
 					else if (name == "dumboat" || name == "PirateShip"){
 						BoatCounter.m_instance.BoatDestroyed();
 						GetComponent<EnemyScript>().enabled = false;
+                        
 					}
 
 					if (name == "dumboat"){
@@ -148,7 +163,7 @@ public class Health : MonoBehaviour
     {
         GetComponent<FireWeapons>().enabled = false;
         GetComponent<AeroplaneController>().m_MaxEnginePower = 0;
-        GetComponent<AeroplaneController>().ShowPropeller();
+        //GetComponent<AeroplaneController>().ShowPropeller();
         GetComponent<AeroplaneController>().enabled = false;
         GetComponent<AeroplaneUserControl4Axis>().enabled = false;
         GetComponent<Rigidbody>().isKinematic = true;
@@ -160,6 +175,8 @@ public class Health : MonoBehaviour
         Destroy(Instantiate(m_explosionParticles, transform.position, Quaternion.identity), 5);
 
         GameObject.Find("dumboat").GetComponentInChildren<Animator>().SetBool("playerdead",true);
+
+        enabled = false;
     }
 
 
