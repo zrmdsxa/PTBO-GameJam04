@@ -113,6 +113,8 @@ public class FireWeapons : MonoBehaviour
 
                     m_rockets[m_rocketIndex].GetComponent<Bullet>().SetDamage(m_rocketDamage);
 
+                    Destroy(m_rockets[m_rocketIndex].gameObject,20);
+
                     Destroy(Instantiate(m_rocketSound, transform.position, Quaternion.identity), 5);
 
                     m_rocketIndex++;
