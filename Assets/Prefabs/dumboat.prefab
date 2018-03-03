@@ -7290,7 +7290,7 @@ MonoBehaviour:
   m_bullet1Damage: 5
   m_minRange1: -5
   m_maxRange1: 5
-  m_gunSound1: {fileID: 1894994491834638, guid: 7730f6930d9e3de45af269b204a011b4,
+  m_gunSound1: {fileID: 1917943897903262, guid: ee524fd9d2a3fa945aef60170231bce1,
     type: 2}
   m_gun1Positions:
   - {fileID: 4964077232924484}

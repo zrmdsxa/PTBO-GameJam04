@@ -65,7 +65,7 @@ public class EnemyPlane : MonoBehaviour
         if (m_inRange)
         {
             //Debug.Log(Vector3.Angle(transform.forward, PlayerScript.m_player.transform.position - transform.position));
-            if (Vector3.Angle(transform.forward, PlayerScript.m_player.transform.position - transform.position) < 15.0f)
+            if (Vector3.Angle(transform.forward, PlayerScript.m_player.transform.position - transform.position) < 10.0f)
             {
                 if (m_currentCooldown1 >= m_fireRate1)
                 {
